@@ -51,4 +51,4 @@ def max_profit(remaining_prices, current_profit, current_k, summed_profit_list):
 new_prices = simplifier(list_prices)
 k = max_transactions(k)
 max_profit = max(max_profit(new_prices, temp_profit, ko, summed_p_list))
-print(f"o lucro máximo que pode ser obtido é {max_profit}")
+print(f"The max amount of profit possible is {max_profit}")
